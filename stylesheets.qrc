@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/assets/stylesheet">
+        <file alias="application.qss">assets/stylesheets/application.qss</file>
+        <file alias="button.qss">assets/stylesheets/button.qss</file>
+        <file alias="checkbox.qss">assets/stylesheets/checkbox.qss</file>
+        <file alias="inputspinner.qss">assets/stylesheets/inputspinner.qss</file>
+        <file alias="messagebox.qss">assets/stylesheets/messagebox.qss</file>
+        <file alias="lineedit.qss">assets/stylesheets/lineedit.qss</file>
+        <file alias="modal.qss">assets/stylesheets/modal.qss</file>
+        <file alias="combobox.qss">assets/stylesheets/combobox.qss</file>
+    </qresource>
+</RCC>

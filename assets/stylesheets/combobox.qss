@@ -1,0 +1,33 @@
+﻿QPushButton#form-text {
+    background-color: #ececec;
+    border: 1px solid #e9ecef;
+    border-right: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 3px;
+    padding: 10px;
+}
+
+QComboBox#form-select {
+    background-color: #ffffff;
+    border: 1px solid #e9ecef;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 3px;
+    padding-left: 10px;
+}
+
+QComboBox::drop-down#form-select {
+    background-color: #ffffff;
+    border: 1px solid #e9ecef;
+    border-style: none;
+    padding-right: 30px;
+}
+
+QComboBox::down-arrow#form-select {
+    image: url(":/assets/images/baseline_expand_more_black_24dp.png");
+    border-radius：3px;
+}
+
+QComboBox#form-select QAbstractItemView {
+    border-style: none;
+    selection-background-color: #1e90ff;
+}

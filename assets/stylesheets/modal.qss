@@ -1,0 +1,16 @@
+﻿QWidget#modal {
+    background-color: #ffffff;
+    border: 1px solid #c8c8c8;
+}
+
+QWidget#modal-title {
+    font-size: 24px;
+}
+
+
+QLabel#modal-body {
+    border: 1px solid #dee2e6;
+    border-left: none;
+    border-right: none;
+}
+

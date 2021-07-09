@@ -1,0 +1,22 @@
+﻿QCheckBox::indicator:checked#form-check {
+    image: url(":/assets/images/baseline_check_box_black_24dp.png");
+}
+
+QCheckBox::indicator:indeterminate#form-check {
+    image: url(":/assets/images/baseline_indeterminate_check_box_black_24dp.png");
+}
+
+QCheckBox::indicator:unchecked#form-check {
+    image: url(":/assets/images/baseline_check_box_outline_blank_black_24dp.png");
+}
+
+
+QCheckBox::indicator:checked#form-switch {
+    image: url(":/assets/images/baseline_toggle_on_black_36dp.png");
+}
+
+QCheckBox::indicator:unchecked#form-switch {
+    image: url(":/assets/images/outline_toggle_off_black_36dp.png");
+}
+
+

@@ -1,0 +1,330 @@
+﻿/* Primary */
+QPushButton#btn-primary {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #0d6efd;
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+QPushButton:hover#btn-primary {
+    background-color: #0062cc;
+}
+
+QPushButton:pressed#btn-primary {
+    background-color: #0062cc;
+}
+
+QPushButton:focus#btn-primary {
+    border-color: #0062cc;
+}
+
+
+
+/* Secondary */
+QPushButton#btn-secondary {
+    color: #fff;
+    background-color: #6c757d;
+    border-color: #6c757d;
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+QPushButton:hover#btn-secondary {
+    background-color: #545b62;
+}
+
+QPushButton:pressed#btn-secondary {
+    background-color: #545b62;
+}
+
+/* Success */
+QPushButton#btn-success {
+    color: #fff;
+    background-color: #198754;
+    border-color: #198754;
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+QPushButton:hover#btn-success {
+    background-color: #1e7e34;
+}
+
+QPushButton:pressed#btn-success {
+    background-color: #1e7e34;
+}
+
+/* Danger */
+QPushButton#btn-danger {
+    color: #fff;
+    background-color: #dc3545;
+    border-color: #dc3545;
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+QPushButton:hover#btn-danger {
+    background-color: #bd2130;
+}
+
+QPushButton:pressed#btn-danger {
+    background-color: #bd2130;
+}
+
+/* Warning */
+QPushButton#btn-warning {
+    color: #000;
+    background-color: #ffc107;
+    border-color: #ffc107;
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+QPushButton:hover#btn-warning {
+    background-color: #ffca2c;
+}
+
+QPushButton:pressed#btn-warning {
+    background-color: #ffca2c;
+}
+
+/* Info */
+QPushButton#btn-info {
+    color: #000;
+    background-color: #0dcaf0;
+    border-color: #0dcaf0;
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+QPushButton:hover#btn-info {
+    background-color: #31d2f2;
+}
+
+QPushButton:pressed#btn-info {
+    background-color: #31d2f2;
+}
+
+/* Light */
+QPushButton#btn-light {
+    color: #000;
+    background-color: #f8f9fa;
+    border-color: #f8f9fa;
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+QPushButton:hover#btn-light {
+    background-color: #dae0e5;
+}
+
+QPushButton:pressed#btn-light {
+    background-color: #dae0e5;
+}
+
+/* Dark */
+QPushButton#btn-dark {
+    color: #fff;
+    background-color: #212529;
+    border-color: #212529;
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+QPushButton:hover#btn-dark {
+    background-color: #1d2124;
+}
+
+QPushButton:pressed#btn-dark {
+    background-color: #1d2124;
+}
+
+/* Link */
+QPushButton#btn-link {
+    color: #0d6efd;
+    background-color: transparent;
+    text-decoration: underline;
+    font-weight: bold;
+    padding: 10px;
+}
+
+QPushButton:hover#btn-link {
+    color: #0a58ca;
+    background-color: transparent;
+}
+
+QPushButton:pressed#btn-link {
+    background-color: transparent;
+}
+
+
+/* Outline Buttons */
+/* Primary */
+QPushButton#btn-outline-primary {
+    color: #0d6efd;
+    border-color: #0d6efd;
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+QPushButton:hover#btn-outline-primary {
+    color: #fff;
+    background-color: #007bff;
+}
+
+QPushButton:pressed#btn-outline-primary {
+    background-color: #007bff;
+}
+
+/* Secondary */
+QPushButton#btn-outline-secondary {
+    color: #6c757d;
+    border-color: #6c757d;
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+QPushButton:hover#btn-outline-secondary {
+    color: #fff;
+    background-color: #6c757d;
+}
+
+QPushButton:pressed#btn-outline-secondary {
+    background-color: #6c757d;
+}
+
+/* Success */
+QPushButton#btn-outline-success {
+    color: #198754;
+    border-color: #198754;
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+QPushButton:hover#btn-outline-success {
+    color: #fff;
+    background-color: #28a745;
+}
+
+QPushButton:pressed#btn-outline-success {
+    background-color: #28a745;
+}
+
+/* Danger */
+QPushButton#btn-outline-danger {
+    color: #dc3545;
+    border-color: #dc3545;
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+QPushButton:hover#btn-outline-danger {
+    color: #fff;
+    background-color: #dc3545;
+}
+
+QPushButton:pressed#btn-outline-danger {
+    background-color: #dc3545;
+}
+
+/* Warning */
+QPushButton#btn-outline-warning {
+    color: #ffc107;
+    border-color: #ffc107;
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+QPushButton:hover#btn-outline-warning {
+    color: #212529;
+    background-color: #ffc107;
+}
+
+QPushButton:pressed#btn-outline-warning {
+    background-color: #ffc107;
+}
+
+/* Info */
+QPushButton#btn-outline-info {
+    color: #0dcaf0;
+    border-color: #0dcaf0;
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+QPushButton:hover#btn-outline-info {
+    color: #212529;
+    background-color: #0dcaf0;
+}
+
+QPushButton:pressed#btn-outline-info {
+    background-color: #0dcaf0;
+}
+
+/* Light */
+QPushButton#btn-outline-light {
+    color: #f8f9fa;
+    border-color: #f8f9fa;
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+QPushButton:hover#btn-outline-light {
+    color: #212529;
+    background-color: #f8f9fa;
+}
+
+QPushButton:pressed#btn-outline-light {
+    background-color: #dae0e5;
+}
+
+
+/* Dark */
+QPushButton#btn-outline-dark {
+    color: #212529;
+    border-color: #212529;
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+QPushButton:hover#btn-outline-dark {
+    color: #fff;
+    background-color: #212529;
+}
+
+QPushButton:pressed#btn-outline-dark {
+    background-color: #1d2124;
+}
+
+
+/* Close Button */
+QPushButton#close-button {
+    background-color: transparent;
+    border-style: none;
+    border-image:url(:/assets/images/baseline_close_gray_36dp.png);
+}
+
+QPushButton:hover#close-button {
+    border-image:url(:/assets/images/baseline_close_black_36dp.png);
+}
+
+QPushButton:pressed#close-button {
+}
+

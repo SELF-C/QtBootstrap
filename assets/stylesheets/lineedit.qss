@@ -1,0 +1,9 @@
+﻿QLineEdit#form-control {
+    background-color: #ffffff;
+    border: 1px solid #ced4da;
+    border-radius: 3px;
+}
+
+QLineEdit:focus#form-control {
+    border-color: #86b7fe;
+}

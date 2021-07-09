@@ -1,0 +1,14 @@
+<RCC>
+    <qresource prefix="/assets/images">
+        <file alias="close_black_18dp.svg">assets/images/close_black_18dp.svg</file>
+        <file alias="close_black_36dp.svg">assets/images/close_black_36dp.svg</file>
+        <file alias="baseline_close_black_36dp.png">assets/images/baseline_close_black_36dp.png</file>
+        <file alias="baseline_close_gray_36dp.png">assets/images/baseline_close_gray_36dp.png</file>
+        <file alias="baseline_toggle_on_black_36dp.png">assets/images/baseline_toggle_on_black_36dp.png</file>
+        <file alias="outline_toggle_off_black_36dp.png">assets/images/outline_toggle_off_black_36dp.png</file>
+        <file alias="baseline_check_box_black_24dp.png">assets/images/baseline_check_box_black_24dp.png</file>
+        <file alias="baseline_check_box_outline_blank_black_24dp.png">assets/images/baseline_check_box_outline_blank_black_24dp.png</file>
+        <file alias="baseline_indeterminate_check_box_black_24dp.png">assets/images/baseline_indeterminate_check_box_black_24dp.png</file>
+        <file alias="baseline_expand_more_black_24dp.png">assets/images/baseline_expand_more_black_24dp.png</file>
+    </qresource>
+</RCC>

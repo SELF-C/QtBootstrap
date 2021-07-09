@@ -1,0 +1,47 @@
+﻿/* DownArrow */
+QPushButton#down-arrow {
+    color: #6c757d;
+    background-color: #ffffff;
+    border: 1px solid #6c757d;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+QPushButton:hover#down-arrow {
+    color: #fff;
+    background-color: #6c757d;
+}
+
+QPushButton:pressed#down-arrow {
+    background-color: #6c757d;
+}
+
+/* UpArrow */
+QPushButton#up-arrow {
+    background-color: #ffffff;
+    border: 1px solid #6c757d;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+QPushButton:hover#up-arrow {
+    color: #fff;
+    background-color: #6c757d;
+}
+
+QPushButton:pressed#up-arrow {
+    background-color: #6c757d;
+}
+
+
+QSpinBox#input-spinner{
+    border: 1px solid #ced4da;
+    border-left: none;
+    border-right: none;
+}
+
+QDoubleSpinBox#input-spinner{
+    border: 1px solid #ced4da;
+    border-left: none;
+    border-right: none;
+}
