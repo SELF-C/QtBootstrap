@@ -27,6 +27,7 @@ private:
     QHBoxLayout* makeOutLineButton();
     QHBoxLayout* makeForm();
     QHBoxLayout* makeForm2();
+    QHBoxLayout* makeCheacks();
     QHBoxLayout* makeDialog();
 };
 #endif // MAINWINDOW_H

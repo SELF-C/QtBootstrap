@@ -1,0 +1,17 @@
+<RCC>
+    <qresource prefix="/assets/images">
+        <file alias="baseline_close_black_36dp.png">assets/images/baseline_close_black_36dp.png</file>
+        <file alias="baseline_close_gray_36dp.png">assets/images/baseline_close_gray_36dp.png</file>
+        <file alias="baseline_expand_more_black_24dp.png">assets/images/baseline_expand_more_black_24dp.png</file>
+        <file alias="baseline_check_box_disabled_blue_24dp.png">assets/images/baseline_check_box_disabled_blue_24dp.png</file>
+        <file alias="baseline_check_box_outline_disabled_blue_black_24dp.png">assets/images/baseline_check_box_outline_disabled_blue_black_24dp.png</file>
+        <file alias="baseline_indeterminate_check_box_disabled_blue_24dp.png">assets/images/baseline_indeterminate_check_box_disabled_blue_24dp.png</file>
+        <file alias="baseline_toggle_on_blue_36dp.png">assets/images/baseline_toggle_on_blue_36dp.png</file>
+        <file alias="outline_toggle_off_blue_36dp.png">assets/images/outline_toggle_off_blue_36dp.png</file>
+        <file alias="baseline_check_box_blue_24dp.png">assets/images/baseline_check_box_blue_24dp.png</file>
+        <file alias="baseline_check_box_outline_blue_black_24dp.png">assets/images/baseline_check_box_outline_blue_black_24dp.png</file>
+        <file alias="baseline_indeterminate_check_box_blue_24dp.png">assets/images/baseline_indeterminate_check_box_blue_24dp.png</file>
+        <file alias="baseline_toggle_on_disabled_blue_36dp.png">assets/images/baseline_toggle_on_disabled_blue_36dp.png</file>
+        <file alias="outline_toggle_off_disabled_blue_36dp.png">assets/images/outline_toggle_off_disabled_blue_36dp.png</file>
+    </qresource>
+</RCC>

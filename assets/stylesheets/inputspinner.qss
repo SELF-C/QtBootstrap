@@ -16,6 +16,11 @@ QPushButton:pressed#down-arrow {
     background-color: #6c757d;
 }
 
+QPushButton:disabled#down-arrow {
+    border-color: #dfdfdf;
+    color: #909294;
+}
+
 /* UpArrow */
 QPushButton#up-arrow {
     background-color: #ffffff;
@@ -33,15 +38,32 @@ QPushButton:pressed#up-arrow {
     background-color: #6c757d;
 }
 
+QPushButton:disabled#up-arrow {
+    border-color: #dfdfdf;
+    color: #909294;
+}
 
+
+/* SpinBox */
 QSpinBox#input-spinner{
     border: 1px solid #ced4da;
     border-left: none;
     border-right: none;
 }
 
+QSpinBox:disabled#input-spinner {
+    border-color: #dfdfdf;
+    color: #909294;
+}
+
+
 QDoubleSpinBox#input-spinner{
     border: 1px solid #ced4da;
     border-left: none;
     border-right: none;
+}
+
+QDoubleSpinBox:disabled#input-spinner {
+    border-color: #dfdfdf;
+    color: #909294;
 }

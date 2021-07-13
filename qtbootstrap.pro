@@ -39,7 +39,7 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
 
 RESOURCES += \
-    stylesheets.qrc \
-    svg.qrc
+    images.qrc \
+    stylesheets.qrc
 
 DISTFILES +=

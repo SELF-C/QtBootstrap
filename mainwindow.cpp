@@ -34,6 +34,7 @@ MainWindow::MainWindow(QWidget *parent)
 
     vlayout->addLayout(makeButton());
     vlayout->addLayout(makeOutLineButton());
+    vlayout->addLayout(makeCheacks());
     vlayout->addLayout(makeForm());
     vlayout->addLayout(makeForm2());
     vlayout->addLayout(makeDialog());
@@ -83,10 +84,11 @@ QHBoxLayout *MainWindow::makeOutLineButton()
 QHBoxLayout *MainWindow::makeForm()
 {
     auto* layout = new QHBoxLayout();
-    layout->addWidget(new InputSpinner(this));
+
+    auto* inputspin = new InputSpinner(this);
+    inputspin->setEnabled(false);
+    layout->addWidget(inputspin);
     layout->addWidget(new LineEdit(this));
-    layout->addWidget(new CheckBox(CheckBox::Style::Check, this));
-    layout->addWidget(new CheckBox(CheckBox::Style::Switch, this));
 
     return layout;
 }
@@ -100,6 +102,45 @@ QHBoxLayout *MainWindow::makeForm2()
     cmb->combobox()->addItem(u8"アイテム2");
 
     layout->addWidget(cmb);
+
+    return layout;
+}
+
+QHBoxLayout *MainWindow::makeCheacks()
+{
+    auto* layout = new QHBoxLayout();
+
+    /* check */
+    layout->addWidget(new CheckBox(CheckBox::Style::Check, this));
+
+    auto* checkChecked = new CheckBox(CheckBox::Style::Check, this);
+    checkChecked->setChecked(true);
+    layout->addWidget(checkChecked);
+
+    auto* checkDefDisabled = new CheckBox(CheckBox::Style::Check, this);
+    checkDefDisabled->setEnabled(false);
+    layout->addWidget(checkDefDisabled);
+
+    auto* checkCheckedDisabled = new CheckBox(CheckBox::Style::Check, this);
+    checkCheckedDisabled->setChecked(true);
+    checkCheckedDisabled->setEnabled(false);
+    layout->addWidget(checkCheckedDisabled);
+
+    /* switch */
+    layout->addWidget(new CheckBox(CheckBox::Style::Switch, this));
+
+    auto* switchChecked = new CheckBox(CheckBox::Style::Switch, this);
+    switchChecked->setChecked(true);
+    layout->addWidget(switchChecked);
+
+    auto* switchDefDisabled = new CheckBox(CheckBox::Style::Switch, this);
+    switchDefDisabled->setEnabled(false);
+    layout->addWidget(switchDefDisabled);
+
+    auto* switchCheckedDisabled = new CheckBox(CheckBox::Style::Switch, this);
+    switchCheckedDisabled->setChecked(true);
+    switchCheckedDisabled->setEnabled(false);
+    layout->addWidget(switchCheckedDisabled);
 
     return layout;
 }
