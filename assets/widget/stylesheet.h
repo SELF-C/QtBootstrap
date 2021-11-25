@@ -15,6 +15,8 @@ struct StyleSheet
         static inline QString MessageBox=":/assets/stylesheet/messagebox.qss";
         static inline QString Modal=":/assets/stylesheet/modal.qss";
         static inline QString ComboBox=":/assets/stylesheet/combobox.qss";
+        static inline QString Tab=":/assets/stylesheet/tab.qss";
+        static inline QString GroupBox=":/assets/stylesheet/groupbox.qss";
     };
 
 
