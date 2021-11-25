@@ -23,11 +23,13 @@ HEADERS += \
     assets/widget/button.h \
     assets/widget/checkbox.h \
     assets/widget/combobox.h \
+    assets/widget/groupbox.h \
     assets/widget/inputspinner.h \
     assets/widget/lineedit.h \
     assets/widget/messagebox.h \
     assets/widget/modal.h \
     assets/widget/stylesheet.h \
+    assets/widget/tabwidget.h \
     mainwindow.h \
 
 FORMS += \

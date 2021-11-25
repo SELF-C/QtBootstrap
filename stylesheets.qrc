@@ -8,5 +8,7 @@
         <file alias="lineedit.qss">assets/stylesheets/lineedit.qss</file>
         <file alias="modal.qss">assets/stylesheets/modal.qss</file>
         <file alias="combobox.qss">assets/stylesheets/combobox.qss</file>
+        <file alias="tab.qss">assets/stylesheets/tab.qss</file>
+        <file alias="groupbox.qss">assets/stylesheets/groupbox.qss</file>
     </qresource>
 </RCC>

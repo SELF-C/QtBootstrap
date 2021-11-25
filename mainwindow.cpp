@@ -7,9 +7,12 @@
 #include "assets/widget/lineedit.h"
 #include "assets/widget/modal.h"
 #include "assets/widget/combobox.h"
+#include "assets/widget/tabwidget.h"
+#include "assets/widget/groupbox.h"
 #include <QDebug>
 #include <QScrollArea>
 #include <QSlider>
+#include <QTabWidget>
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
@@ -39,8 +42,20 @@ MainWindow::MainWindow(QWidget *parent)
     vlayout->addLayout(makeForm2());
     vlayout->addLayout(makeDialog());
 
+    auto tab = new TabWidget(this);
+    tab->addTab(new QWidget(), "Home");
+    tab->addTab(new QWidget(), "Profile");
+    tab->addTab(new QWidget(), "Contact");
+    tab->addTab(new QWidget(), u8"範囲設定");
+    vlayout->addWidget(tab);
+    //tab->setEnabled(false);
 
-
+    auto group = new GroupBox(this);
+    auto glayout = new QVBoxLayout(group);
+    group->setLayout(glayout);
+    glayout->addWidget(new QLabel("Label"));
+    glayout->addWidget(new QLabel("Group"));
+    vlayout->addWidget(group);
 }
 
 MainWindow::~MainWindow()
